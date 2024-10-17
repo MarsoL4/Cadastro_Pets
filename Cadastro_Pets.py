@@ -9,10 +9,11 @@ conexao = False
 try:
     # Conexão ao banco de dados usando SID
     conn = oracledb.connect(
-        user="rm556310",
-        password="130206",
-        dsn="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=oracle.fiap.com.br)(PORT=1521))(CONNECT_DATA=(SID=ORCL)))"
-    )
+    user="SEU_USUARIO",
+    password="SUA_SENHA",
+    dsn="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=SEU_HOST)(PORT=SUA_PORTA))(CONNECT_DATA=(SID=SEU_SID)))"
+)
+
     conexao = True
     print("\n🟢 Conexão ao banco de dados estabelecida com sucesso!")
 except Exception as e:
