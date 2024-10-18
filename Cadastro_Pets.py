@@ -11,7 +11,7 @@ try:
     conn = oracledb.connect(
     user="SEU_USUARIO",
     password="SUA_SENHA",
-    dsn="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=SEU_HOST)(PORT=SUA_PORTA))(CONNECT_DATA=(SID=SEU_SID)))"
+    dsn="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=SEU_HOST)(PORT=SEU_PORT))(CONNECT_DATA=(SID=SEU_SID)))"
 )
 
     conexao = True
