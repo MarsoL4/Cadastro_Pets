@@ -1,55 +1,100 @@
-# Sistema de Cadastro de Pets
 
-Este é um projeto em Python que permite cadastrar, listar e exportar informações sobre pets utilizando um banco de dados Oracle. A aplicação fornece um menu interativo no terminal para facilitar a interação do usuário.
+# Cadastro de Pets
+
+Um sistema em Python para cadastro de informações de pets com integração ao banco de dados Oracle. 
+O sistema oferece uma interface interativa no terminal que permite cadastrar, listar e exportar dados de pets.
 
 ## Funcionalidades
 
-- **Cadastrar Pets**: Permite ao usuário cadastrar novos pets com tipo, nome e idade.
-- **Listar Pets**: Exibe todos os pets cadastrados no banco de dados.
-- **Exportar Dados**: Gera uma planilha Excel contendo os dados dos pets cadastrados, com nome de arquivo formatado com a data e hora atuais.
+- Cadastrar novos pets com informações detalhadas.
+- Listar todos os pets cadastrados.
+- Exportar os dados dos pets para um arquivo.
+- Interface interativa através de menu no terminal.
 
 ## Tecnologias Utilizadas
 
-- Python
-- Pandas
-- oracledb (Driver Oracle)
-- Excel (para exportação)
+- **Python**
+- **Banco de Dados Oracle**
 
 ## Pré-requisitos
 
-Para executar este projeto, você precisa ter:
+- **Python 3.x** instalado.
+- **Oracle Database** configurado e acessível.
+- **Bibliotecas Python** listadas no arquivo `requirements.txt`.
 
-- Python 3.x instalado.
-- As bibliotecas necessárias instaladas. Você pode instalar as dependências usando o seguinte comando:
+## Instalação
 
-```bash
-pip install pandas oracledb
-```
-
-- Acesso a um banco de dados Oracle e as credenciais necessárias.
-
-## Como Executar
-
-1. **Clone o repositório:**
-
+1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sistema-cadastro-pets.git
-   cd sistema-cadastro-pets
+   git clone https://github.com/MarsoL4/Cadastro_Pets.git
+   cd Cadastro_Pets
    ```
 
-2. **Abra o arquivo de código e configure as credenciais do banco de dados:**
-
-   Edite o arquivo `seu_arquivo.py` usando seu editor de texto favorito:
-
+2. Instale as dependências:
    ```bash
-   nano seu_arquivo.py
+   pip install -r requirements.txt
    ```
 
-   No arquivo, modifique as variáveis user, password e dsn com suas credenciais de acesso ao banco de dados Oracle.
+3. Configure o acesso ao banco de dados Oracle, verificando que as credenciais e detalhes de conexão estão corretos no código.
 
-3. **Execute o script:**
+## Utilização
+
+Para iniciar o sistema, execute o seguinte comando:
 
 ```bash
-python seu_arquivo.py
+python main.py
 ```
 
+Ao iniciar, o sistema apresentará um menu interativo com as seguintes opções:
+
+1. **Cadastrar Pet**: Permite o cadastro de um novo pet no banco de dados.
+2. **Listar Pets**: Mostra uma lista de todos os pets cadastrados.
+3. **Exportar Dados**: Exporta os dados dos pets para um arquivo em formato especificado.
+
+Escolha uma opção digitando o número correspondente.
+
+## Exemplo de Uso
+
+### Menu Interativo
+
+```
+1 - Cadastrar Pet
+2 - Listar Pets
+3 - Exportar Dados
+0 - Sair
+
+Digite a opção desejada:
+```
+
+### Cadastro de um Novo Pet
+
+O sistema solicitará informações como nome, espécie, raça, idade e outras características do pet, que serão armazenadas no banco de dados.
+
+## Contribuindo
+
+Contribuições são bem-vindas! Siga estas etapas para contribuir:
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch com sua funcionalidade: `git checkout -b minha-nova-funcionalidade`.
+3. Commit suas mudanças: `git commit -m 'Adiciona nova funcionalidade'`.
+4. Envie para o branch principal: `git push origin minha-nova-funcionalidade`.
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Para dúvidas e sugestões, entre em contato.
+
+---
+
+### Tópicos
+
+- Python
+- Oracle
+- Cadastro de Pets
+- Banco de Dados
+- Exportação de Dados
+- Interface de Linha de Comando
