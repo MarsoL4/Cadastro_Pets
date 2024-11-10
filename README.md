@@ -42,7 +42,7 @@ O sistema oferece uma interface interativa no terminal que permite cadastrar, li
 Para iniciar o sistema, execute o seguinte comando:
 
 ```bash
-python main.py
+python Cadastro_Pets.py
 ```
 
 Ao iniciar, o sistema apresentará um menu interativo com as seguintes opções:
