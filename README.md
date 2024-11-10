@@ -79,22 +79,3 @@ Contribuições são bem-vindas! Siga estas etapas para contribuir:
 3. Commit suas mudanças: `git commit -m 'Adiciona nova funcionalidade'`.
 4. Envie para o branch principal: `git push origin minha-nova-funcionalidade`.
 5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Contato
-
-Para dúvidas e sugestões, entre em contato.
-
----
-
-### Tópicos
-
-- Python
-- Oracle
-- Cadastro de Pets
-- Banco de Dados
-- Exportação de Dados
-- Interface de Linha de Comando
